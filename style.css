@@ -177,7 +177,7 @@ h4 {
     left: 0;
     top: 0;
     background: rgba(0, 0, 0, 01);
-    transform: scaleX(0.0125);
+    transform: scaleX(0);
     transform-origin: right;
     z-index: -1;
   }
