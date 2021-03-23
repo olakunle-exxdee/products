@@ -53,6 +53,24 @@ h4 {
   padding: 0 2em;
   margin: 0 auto;
 }
+
+.headerColor {
+  background: var(--main-color);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  max-width: 90em;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+}
+.logoColor {
+  color: #040404 !important;
+}
+.header {
+  padding: 0.5em 0 1.5em 0;
+  transition: var(--transition);
+}
 @media only screen and (min-width: 80em) {
   .container {
     width: 80%;
@@ -110,10 +128,12 @@ h4 {
   transform: translateY(0);
 }
 
-.logo a h1 {
+.logologo {
   color: var(--main-color);
   font-size: 3rem;
   text-transform: capitalize;
+  transition: var(--transition);
+  cursor: pointer;
 }
 .menu {
   cursor: pointer;
